@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */; };
+		FB8184FF277193BA00559B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8184FE277193BA00559B89 /* ContentView.swift */; };
+		FB818501277193BF00559B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB818500277193BF00559B89 /* Assets.xcassets */; };
+		FB818504277193BF00559B89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB818503277193BF00559B89 /* Preview Assets.xcassets */; };
+		FB818506277193BF00559B89 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB818505277193BF00559B89 /* Persistence.swift */; };
+		FB818509277193BF00559B89 /* DeliveryDeComida.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB818507277193BF00559B89 /* DeliveryDeComida.xcdatamodeld */; };
+		FB818513277193BF00559B89 /* DeliveryDeComidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB818512277193BF00559B89 /* DeliveryDeComidaTests.swift */; };
+		FB81851D277193BF00559B89 /* DeliveryDeComidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81851C277193BF00559B89 /* DeliveryDeComidaUITests.swift */; };
+		FB81851F277193BF00559B89 /* DeliveryDeComidaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81851E277193BF00559B89 /* DeliveryDeComidaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB81850F277193BF00559B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8184F1277193B900559B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8184F8277193BA00559B89;
+			remoteInfo = DeliveryDeComida;
+		};
+		FB818519277193BF00559B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8184F1277193B900559B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8184F8277193BA00559B89;
+			remoteInfo = DeliveryDeComida;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB8184F9277193BA00559B89 /* DeliveryDeComida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryDeComida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDeComidaApp.swift; sourceTree = "<group>"; };
+		FB8184FE277193BA00559B89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB818500277193BF00559B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB818503277193BF00559B89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB818505277193BF00559B89 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FB818508277193BF00559B89 /* DeliveryDeComida.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeliveryDeComida.xcdatamodel; sourceTree = "<group>"; };
+		FB81850E277193BF00559B89 /* DeliveryDeComidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliveryDeComidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB818512277193BF00559B89 /* DeliveryDeComidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDeComidaTests.swift; sourceTree = "<group>"; };
+		FB818518277193BF00559B89 /* DeliveryDeComidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliveryDeComidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB81851C277193BF00559B89 /* DeliveryDeComidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDeComidaUITests.swift; sourceTree = "<group>"; };
+		FB81851E277193BF00559B89 /* DeliveryDeComidaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDeComidaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8184F6277193BA00559B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB81850B277193BF00559B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB818515277193BF00559B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8184F0277193B900559B89 = {
+			isa = PBXGroup;
+			children = (
+				FB8184FB277193BA00559B89 /* DeliveryDeComida */,
+				FB818511277193BF00559B89 /* DeliveryDeComidaTests */,
+				FB81851B277193BF00559B89 /* DeliveryDeComidaUITests */,
+				FB8184FA277193BA00559B89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8184FA277193BA00559B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8184F9277193BA00559B89 /* DeliveryDeComida.app */,
+				FB81850E277193BF00559B89 /* DeliveryDeComidaTests.xctest */,
+				FB818518277193BF00559B89 /* DeliveryDeComidaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8184FB277193BA00559B89 /* DeliveryDeComida */ = {
+			isa = PBXGroup;
+			children = (
+				FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */,
+				FB8184FE277193BA00559B89 /* ContentView.swift */,
+				FB818500277193BF00559B89 /* Assets.xcassets */,
+				FB818505277193BF00559B89 /* Persistence.swift */,
+				FB818507277193BF00559B89 /* DeliveryDeComida.xcdatamodeld */,
+				FB818502277193BF00559B89 /* Preview Content */,
+			);
+			path = DeliveryDeComida;
+			sourceTree = "<group>";
+		};
+		FB818502277193BF00559B89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB818503277193BF00559B89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB818511277193BF00559B89 /* DeliveryDeComidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB818512277193BF00559B89 /* DeliveryDeComidaTests.swift */,
+			);
+			path = DeliveryDeComidaTests;
+			sourceTree = "<group>";
+		};
+		FB81851B277193BF00559B89 /* DeliveryDeComidaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB81851C277193BF00559B89 /* DeliveryDeComidaUITests.swift */,
+				FB81851E277193BF00559B89 /* DeliveryDeComidaUITestsLaunchTests.swift */,
+			);
+			path = DeliveryDeComidaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8184F8277193BA00559B89 /* DeliveryDeComida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB818522277193C000559B89 /* Build configuration list for PBXNativeTarget "DeliveryDeComida" */;
+			buildPhases = (
+				FB8184F5277193BA00559B89 /* Sources */,
+				FB8184F6277193BA00559B89 /* Frameworks */,
+				FB8184F7277193BA00559B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeliveryDeComida;
+			productName = DeliveryDeComida;
+			productReference = FB8184F9277193BA00559B89 /* DeliveryDeComida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB81850D277193BF00559B89 /* DeliveryDeComidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB818525277193C000559B89 /* Build configuration list for PBXNativeTarget "DeliveryDeComidaTests" */;
+			buildPhases = (
+				FB81850A277193BF00559B89 /* Sources */,
+				FB81850B277193BF00559B89 /* Frameworks */,
+				FB81850C277193BF00559B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB818510277193BF00559B89 /* PBXTargetDependency */,
+			);
+			name = DeliveryDeComidaTests;
+			productName = DeliveryDeComidaTests;
+			productReference = FB81850E277193BF00559B89 /* DeliveryDeComidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB818517277193BF00559B89 /* DeliveryDeComidaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB818528277193C000559B89 /* Build configuration list for PBXNativeTarget "DeliveryDeComidaUITests" */;
+			buildPhases = (
+				FB818514277193BF00559B89 /* Sources */,
+				FB818515277193BF00559B89 /* Frameworks */,
+				FB818516277193BF00559B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB81851A277193BF00559B89 /* PBXTargetDependency */,
+			);
+			name = DeliveryDeComidaUITests;
+			productName = DeliveryDeComidaUITests;
+			productReference = FB818518277193BF00559B89 /* DeliveryDeComidaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8184F1277193B900559B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FB8184F8277193BA00559B89 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FB81850D277193BF00559B89 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FB8184F8277193BA00559B89;
+					};
+					FB818517277193BF00559B89 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FB8184F8277193BA00559B89;
+					};
+				};
+			};
+			buildConfigurationList = FB8184F4277193B900559B89 /* Build configuration list for PBXProject "DeliveryDeComida" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8184F0277193B900559B89;
+			productRefGroup = FB8184FA277193BA00559B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8184F8277193BA00559B89 /* DeliveryDeComida */,
+				FB81850D277193BF00559B89 /* DeliveryDeComidaTests */,
+				FB818517277193BF00559B89 /* DeliveryDeComidaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8184F7277193BA00559B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB818504277193BF00559B89 /* Preview Assets.xcassets in Resources */,
+				FB818501277193BF00559B89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB81850C277193BF00559B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB818516277193BF00559B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8184F5277193BA00559B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB818506277193BF00559B89 /* Persistence.swift in Sources */,
+				FB8184FF277193BA00559B89 /* ContentView.swift in Sources */,
+				FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */,
+				FB818509277193BF00559B89 /* DeliveryDeComida.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB81850A277193BF00559B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB818513277193BF00559B89 /* DeliveryDeComidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB818514277193BF00559B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB81851F277193BF00559B89 /* DeliveryDeComidaUITestsLaunchTests.swift in Sources */,
+				FB81851D277193BF00559B89 /* DeliveryDeComidaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB818510277193BF00559B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8184F8277193BA00559B89 /* DeliveryDeComida */;
+			targetProxy = FB81850F277193BF00559B89 /* PBXContainerItemProxy */;
+		};
+		FB81851A277193BF00559B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8184F8277193BA00559B89 /* DeliveryDeComida */;
+			targetProxy = FB818519277193BF00559B89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB818520277193BF00559B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB818521277193BF00559B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB818523277193C000559B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeliveryDeComida/Preview Content\"";
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldodev.DeliveryDeComida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB818524277193C000559B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeliveryDeComida/Preview Content\"";
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldodev.DeliveryDeComida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB818526277193C000559B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldodev.DeliveryDeComidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliveryDeComida.app/DeliveryDeComida";
+			};
+			name = Debug;
+		};
+		FB818527277193C000559B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldodev.DeliveryDeComidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliveryDeComida.app/DeliveryDeComida";
+			};
+			name = Release;
+		};
+		FB818529277193C000559B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldodev.DeliveryDeComidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeliveryDeComida;
+			};
+			name = Debug;
+		};
+		FB81852A277193C000559B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldodev.DeliveryDeComidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeliveryDeComida;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8184F4277193B900559B89 /* Build configuration list for PBXProject "DeliveryDeComida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB818520277193BF00559B89 /* Debug */,
+				FB818521277193BF00559B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB818522277193C000559B89 /* Build configuration list for PBXNativeTarget "DeliveryDeComida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB818523277193C000559B89 /* Debug */,
+				FB818524277193C000559B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB818525277193C000559B89 /* Build configuration list for PBXNativeTarget "DeliveryDeComidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB818526277193C000559B89 /* Debug */,
+				FB818527277193C000559B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB818528277193C000559B89 /* Build configuration list for PBXNativeTarget "DeliveryDeComidaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB818529277193C000559B89 /* Debug */,
+				FB81852A277193C000559B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB818507277193BF00559B89 /* DeliveryDeComida.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB818508277193BF00559B89 /* DeliveryDeComida.xcdatamodel */,
+			);
+			currentVersion = FB818508277193BF00559B89 /* DeliveryDeComida.xcdatamodel */;
+			path = DeliveryDeComida.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB8184F1277193B900559B89 /* Project object */;
+}
