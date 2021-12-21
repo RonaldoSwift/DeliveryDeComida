@@ -16,6 +16,11 @@
 		FB818513277193BF00559B89 /* DeliveryDeComidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB818512277193BF00559B89 /* DeliveryDeComidaTests.swift */; };
 		FB81851D277193BF00559B89 /* DeliveryDeComidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81851C277193BF00559B89 /* DeliveryDeComidaUITests.swift */; };
 		FB81851F277193BF00559B89 /* DeliveryDeComidaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81851E277193BF00559B89 /* DeliveryDeComidaUITestsLaunchTests.swift */; };
+		FB81852C2771963000559B89 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81852B2771963000559B89 /* HomeView.swift */; };
+		FB81852E2771965200559B89 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81852D2771965200559B89 /* CartView.swift */; };
+		FB8185302771967C00559B89 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB81852F2771967C00559B89 /* StoreView.swift */; };
+		FB818532277196A900559B89 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB818531277196A900559B89 /* ConfirmationView.swift */; };
+		FB818534277196E400559B89 /* ThankfulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB818533277196E400559B89 /* ThankfulView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		FB818518277193BF00559B89 /* DeliveryDeComidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliveryDeComidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB81851C277193BF00559B89 /* DeliveryDeComidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDeComidaUITests.swift; sourceTree = "<group>"; };
 		FB81851E277193BF00559B89 /* DeliveryDeComidaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDeComidaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB81852B2771963000559B89 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FB81852D2771965200559B89 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		FB81852F2771967C00559B89 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		FB818531277196A900559B89 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		FB818533277196E400559B89 /* ThankfulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankfulView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,11 @@
 				FB818505277193BF00559B89 /* Persistence.swift */,
 				FB818507277193BF00559B89 /* DeliveryDeComida.xcdatamodeld */,
 				FB818502277193BF00559B89 /* Preview Content */,
+				FB81852B2771963000559B89 /* HomeView.swift */,
+				FB81852D2771965200559B89 /* CartView.swift */,
+				FB81852F2771967C00559B89 /* StoreView.swift */,
+				FB818531277196A900559B89 /* ConfirmationView.swift */,
+				FB818533277196E400559B89 /* ThankfulView.swift */,
 			);
 			path = DeliveryDeComida;
 			sourceTree = "<group>";
@@ -263,9 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB81852E2771965200559B89 /* CartView.swift in Sources */,
 				FB818506277193BF00559B89 /* Persistence.swift in Sources */,
 				FB8184FF277193BA00559B89 /* ContentView.swift in Sources */,
+				FB818534277196E400559B89 /* ThankfulView.swift in Sources */,
 				FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */,
+				FB81852C2771963000559B89 /* HomeView.swift in Sources */,
+				FB818532277196A900559B89 /* ConfirmationView.swift in Sources */,
+				FB8185302771967C00559B89 /* StoreView.swift in Sources */,
 				FB818509277193BF00559B89 /* DeliveryDeComida.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
