@@ -9,18 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        NavigationView{
-            Button {
-            } label: {
-                Text("Hola mundo")
-            }
-            .navigationTitle("Hola")
-            .navigationBarItems(
-                leading: Text("Back"),
-                trailing: NavigationLink("Siguiente", destination: {
-                CartView()
-            }))
+    
+        Button {
+            
+        } label: {
+            Text("Home View")
         }
+        
     }
 }
 
