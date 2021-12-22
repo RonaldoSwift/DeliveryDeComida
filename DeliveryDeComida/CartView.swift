@@ -13,13 +13,54 @@ struct CartView: View {
             Text("Todays Promo")
                 .foregroundColor(Color("ColorDeTituloDeMenu"))
                 .font(.title)
-                .bold()
             
             ScrollView(.horizontal){
                 HStack{
-                    Image(systemName: "star")
-                    Text("Hola")
+                    Button {
+                    } label: {
+                        Image(systemName: "arrow.left.arrow.right")
+                            .foregroundColor(Color("ColorDeLinkViewEnCartView"))
+                        Text("Filters")
+                            .foregroundColor(Color("ColorDeTituloDeMenu"))
+                    }
+                    .padding()
+                    .background(Color.white)
+                    .cornerRadius(4)
+                    
+                    Button {
+                    } label: {
+                        Image(systemName: "paperplane")
+                            .foregroundColor(Color.white)
+                        Text("Nearby")
+                            .foregroundColor(Color.white)
+                    }
+                    .padding()
+                    .background(Color("ColorDeLinkViewEnCartView"))
+                    .cornerRadius(4)
+                    
+                    Button {
+                    } label: {
+                        Image(systemName: "star")
+                            .foregroundColor(Color("ColorDeLinkViewEnCartView"))
+                        Text("Above 4.5")
+                            .foregroundColor(Color("ColorDeTituloDeMenu"))
+                    }
+                    .padding()
+                    .background(Color.white)
+                    .cornerRadius(4)
+                    
+                    Button {
+                    } label: {
+                        Image(systemName: "tag")
+                            .foregroundColor(Color("ColorDeLinkViewEnCartView"))
+                        Text("Check")
+                            .foregroundColor(Color("ColorDeTituloDeMenu"))
+                    }
+                    .padding()
+                    .background(Color.white)
+                    .cornerRadius(4)
                 }
+                .padding()
             }
             
             VStack(alignment: .leading){
@@ -43,9 +84,9 @@ struct CartView: View {
                     }
                 }
                 
-                
                 //Por Mientras
-                Text("------------------------------------------")
+                Text("_____________________________________")
+                    .foregroundColor(Color("ColorDeNumeroAnulado"))
                 
                 ScrollView{
                     VStack(alignment: .trailing){
@@ -54,7 +95,7 @@ struct CartView: View {
                                 HStack(spacing: 20){
                                     Image("Comida1")
                                         .resizable()
-                                        .frame(width: 100, height: 100, alignment: .leading)
+                                        .frame(width: 100, height: 120, alignment: .leading)
                                         .cornerRadius(4)
                                     VStack(alignment: .leading, spacing: 10){
                                         Text("Fruit salad mix")
@@ -122,7 +163,7 @@ struct CartView: View {
                                 HStack(spacing: 20){
                                     Image("Comida1")
                                         .resizable()
-                                        .frame(width: 100, height: 100, alignment: .leading)
+                                        .frame(width: 100, height: 120, alignment: .leading)
                                         .cornerRadius(4)
                                     VStack(alignment: .leading, spacing: 10){
                                         Text("Fruit salad mix")
@@ -190,7 +231,7 @@ struct CartView: View {
                                 HStack(spacing: 20){
                                     Image("Comida1")
                                         .resizable()
-                                        .frame(width: 100, height: 100, alignment: .leading)
+                                        .frame(width: 100, height: 120, alignment: .leading)
                                         .cornerRadius(4)
                                     VStack(alignment: .leading, spacing: 10){
                                         Text("Fruit salad mix")
