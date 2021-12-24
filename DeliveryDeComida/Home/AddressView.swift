@@ -9,16 +9,14 @@ import SwiftUI
 
 struct AddressView: View {
     var body: some View {
-        
         HStack {
             Text("Jl. Jayakatwang no 301")
             Image(systemName: "chevron.down")
                 .foregroundColor(Color.red)
         }
-        .padding(10)
+        .padding(15)
         .background(Color.red_50)
         .cornerRadius(30)
-            
     }
 }
 

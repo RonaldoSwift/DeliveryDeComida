@@ -14,6 +14,8 @@
 		2BC1296B27753E5E004B9A07 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296A27753E5E004B9A07 /* AddressView.swift */; };
 		2BC1296D27753EA8004B9A07 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296C27753EA8004B9A07 /* NotificationView.swift */; };
 		2BC1297027754199004B9A07 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296F27754199004B9A07 /* Color.swift */; };
+		2BFEFB272776591C006AB0E1 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */; };
+		2BFEFB2A27765AEE006AB0E1 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEFB2927765AEE006AB0E1 /* Poppins-Medium.ttf */; };
 		FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */; };
 		FB8184FF277193BA00559B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8184FE277193BA00559B89 /* ContentView.swift */; };
 		FB818501277193BF00559B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB818500277193BF00559B89 /* Assets.xcassets */; };
@@ -55,6 +57,9 @@
 		2BC1296A27753E5E004B9A07 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		2BC1296C27753EA8004B9A07 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		2BC1296F27754199004B9A07 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		2BFEFB28277659CF006AB0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2BFEFB2927765AEE006AB0E1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		FB8184F9277193BA00559B89 /* DeliveryDeComida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryDeComida.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDeComidaApp.swift; sourceTree = "<group>"; };
 		FB8184FE277193BA00559B89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +155,9 @@
 		FB8184FB277193BA00559B89 /* DeliveryDeComida */ = {
 			isa = PBXGroup;
 			children = (
+				2BFEFB28277659CF006AB0E1 /* Info.plist */,
+				2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */,
+				2BFEFB2927765AEE006AB0E1 /* Poppins-Medium.ttf */,
 				2BC1296E2775417C004B9A07 /* Extensions */,
 				FB818500277193BF00559B89 /* Assets.xcassets */,
 				2BC1296927753DC9004B9A07 /* Home */,
@@ -297,6 +305,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFEFB272776591C006AB0E1 /* Poppins-Regular.ttf in Resources */,
+				2BFEFB2A27765AEE006AB0E1 /* Poppins-Medium.ttf in Resources */,
 				FB818504277193BF00559B89 /* Preview Assets.xcassets in Resources */,
 				FB818501277193BF00559B89 /* Assets.xcassets in Resources */,
 			);
@@ -502,6 +512,7 @@
 				DEVELOPMENT_TEAM = H9JXH336V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeliveryDeComida/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -531,6 +542,7 @@
 				DEVELOPMENT_TEAM = H9JXH336V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeliveryDeComida/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -9,13 +9,26 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-    
-        Button {
+        VStack {
+            HStack {
+                AddressView()
+                Spacer()
+                NotificationView()
+            }
             
-        } label: {
-            Text("Home View")
-        }
-        
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("Hello, Yahya")
+                        .font(Font.custom("Poppins-Medium", size: 20))
+                        .foregroundColor(Color.textPrimary)
+                    Text("What do you want to eat?")
+                        .font(Font.custom("Poppins-Regular", size: 12))
+                        .foregroundColor(Color.textSecondary)
+                }
+                Spacer()
+            }
+            
+        }.padding()
     }
 }
 

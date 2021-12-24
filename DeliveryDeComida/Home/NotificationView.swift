@@ -9,10 +9,19 @@ import SwiftUI
 
 struct NotificationView: View {
     var body: some View {
-        Image(systemName: "bell")
-            .padding()
-            .background(Circle().fill(Color.red))
-            
+        ZStack(alignment: Alignment.bottomTrailing) {
+            Image(systemName: "bell")
+                .resizable()
+                .padding()
+                .foregroundColor(Color.white)
+                .background(Circle().fill(Color.red))
+                .frame(width: 50, height: 50)
+                
+            Circle()
+                .strokeBorder(Color.white, lineWidth: 3)
+                .background(Circle().fill(Color.brandSecondary))
+                .frame(width: 20, height: 20)
+        }
     }
 }
 
