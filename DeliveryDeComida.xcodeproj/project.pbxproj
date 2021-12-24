@@ -11,6 +11,9 @@
 		2BA97FDD2772645F0056686E /* PurchasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA97FDC2772645F0056686E /* PurchasesView.swift */; };
 		2BA97FDF2772646E0056686E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA97FDE2772646E0056686E /* SearchView.swift */; };
 		2BA97FE12772647E0056686E /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA97FE02772647E0056686E /* UserProfileView.swift */; };
+		2BC1296B27753E5E004B9A07 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296A27753E5E004B9A07 /* AddressView.swift */; };
+		2BC1296D27753EA8004B9A07 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296C27753EA8004B9A07 /* NotificationView.swift */; };
+		2BC1297027754199004B9A07 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296F27754199004B9A07 /* Color.swift */; };
 		FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */; };
 		FB8184FF277193BA00559B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8184FE277193BA00559B89 /* ContentView.swift */; };
 		FB818501277193BF00559B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB818500277193BF00559B89 /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 		2BA97FDC2772645F0056686E /* PurchasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesView.swift; sourceTree = "<group>"; };
 		2BA97FDE2772646E0056686E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		2BA97FE02772647E0056686E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		2BC1296A27753E5E004B9A07 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		2BC1296C27753EA8004B9A07 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		2BC1296F27754199004B9A07 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FB8184F9277193BA00559B89 /* DeliveryDeComida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryDeComida.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDeComidaApp.swift; sourceTree = "<group>"; };
 		FB8184FE277193BA00559B89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +109,24 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		2BC1296927753DC9004B9A07 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB81852B2771963000559B89 /* HomeView.swift */,
+				2BC1296A27753E5E004B9A07 /* AddressView.swift */,
+				2BC1296C27753EA8004B9A07 /* NotificationView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2BC1296E2775417C004B9A07 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1296F27754199004B9A07 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FB8184F0277193B900559B89 = {
 			isa = PBXGroup;
 			children = (
@@ -126,14 +150,15 @@
 		FB8184FB277193BA00559B89 /* DeliveryDeComida */ = {
 			isa = PBXGroup;
 			children = (
+				2BC1296E2775417C004B9A07 /* Extensions */,
+				FB818500277193BF00559B89 /* Assets.xcassets */,
+				2BC1296927753DC9004B9A07 /* Home */,
 				2BA97FDB2772644D0056686E /* Main */,
 				FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */,
 				FB8184FE277193BA00559B89 /* ContentView.swift */,
-				FB818500277193BF00559B89 /* Assets.xcassets */,
 				FB818505277193BF00559B89 /* Persistence.swift */,
 				FB818507277193BF00559B89 /* DeliveryDeComida.xcdatamodeld */,
 				FB818502277193BF00559B89 /* Preview Content */,
-				FB81852B2771963000559B89 /* HomeView.swift */,
 				FB81852D2771965200559B89 /* CartView.swift */,
 				FB81852F2771967C00559B89 /* StoreView.swift */,
 				FB818531277196A900559B89 /* ConfirmationView.swift */,
@@ -303,14 +328,17 @@
 				FB8184FF277193BA00559B89 /* ContentView.swift in Sources */,
 				2BA97FDA277263700056686E /* MainView.swift in Sources */,
 				2BA97FDF2772646E0056686E /* SearchView.swift in Sources */,
+				2BC1297027754199004B9A07 /* Color.swift in Sources */,
 				2BA97FE12772647E0056686E /* UserProfileView.swift in Sources */,
 				FB818534277196E400559B89 /* ThankfulView.swift in Sources */,
+				2BC1296B27753E5E004B9A07 /* AddressView.swift in Sources */,
 				FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */,
 				FB81852C2771963000559B89 /* HomeView.swift in Sources */,
 				FB818532277196A900559B89 /* ConfirmationView.swift in Sources */,
 				FB8185302771967C00559B89 /* StoreView.swift in Sources */,
 				FB818509277193BF00559B89 /* DeliveryDeComida.xcdatamodeld in Sources */,
 				2BA97FDD2772645F0056686E /* PurchasesView.swift in Sources */,
+				2BC1296D27753EA8004B9A07 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
