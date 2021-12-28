@@ -14,10 +14,12 @@ struct FiltrosView: View {
             HStack{
                 Button {
                 } label: {
-                    Image(systemName: "arrow.left.arrow.right")
-                        .foregroundColor(Color("ColorDeLinkViewEnCartView"))
-                    Text("Filters")
-                        .foregroundColor(Color("ColorDeTituloDeMenu"))
+                    HStack{
+                        Image(systemName: "arrow.left.arrow.right")
+                            .foregroundColor(Color("ColorDeLinkViewEnCartView"))
+                        Text("Filters")
+                            .foregroundColor(Color("ColorDeTituloDeMenu"))
+                    }
                 }
                 .padding()
                 .background(Color.white)
@@ -58,7 +60,7 @@ struct FiltrosView: View {
             }
             .padding()
         }
-
+        
     }
 }
 

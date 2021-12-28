@@ -16,17 +16,22 @@ struct CartView: View {
             FiltrosView()
             ComidaItemsView()
             NavigationLink(destination: StoreView()) {
-                HStack(alignment: .center, spacing: 55){
-                    Text("1 item")
-                    Text("Checkout")
-                    Text("Rp 18.500")
+                ZStack{
+                    HStack(alignment: .center){
+                        Text("1 item")
+                        Spacer()
+                        Text("Checkout")
+                        Spacer()
+                        Text("Rp 18.500")
+                    }
+                    .padding()
+                    .foregroundColor(Color.white)
+                    .background(Color("ColorDeLinkViewEnCartView"))
+                    .cornerRadius(4)
                 }
                 .padding()
                 .foregroundColor(Color.white)
-                .background(Color("ColorDeLinkViewEnCartView"))
-                .cornerRadius(4)
             }
-            .padding()
         }
     }
 }
