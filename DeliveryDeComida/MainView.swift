@@ -28,7 +28,8 @@ struct MainView: View {
                         Image(systemName: "person.fill")
                     }
             })
-                .navigationTitle("Hola")
+                .navigationBarTitle("Hola", displayMode: .inline)
+                .navigationBarHidden(true)
                 .navigationBarItems(
                     leading: Text("Back"),
                     trailing: NavigationLink("Siguiente", destination: {

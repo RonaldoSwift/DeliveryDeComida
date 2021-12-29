@@ -12,7 +12,7 @@ struct NotificationView: View {
         ZStack(alignment: Alignment.bottomTrailing) {
             Image(systemName: "bell")
                 .resizable()
-                .padding()
+                .padding(12)
                 .foregroundColor(Color.white)
                 .background(Circle().fill(Color.red))
                 .frame(width: 50, height: 50)

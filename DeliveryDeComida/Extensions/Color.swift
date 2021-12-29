@@ -22,4 +22,5 @@ extension Color {
     static let brandSecondary = Color("BrandSecondary")
     static let textPrimary = Color("TextPrimary")
     static let textSecondary = Color("TextSecondary")
+    static let homeBackground = Color("HomeBackground")
 }
