@@ -9,61 +9,57 @@ import SwiftUI
 
 struct StoreView: View {
     var body: some View {
-        NavigationLink(destination: ConfirmationView()) {
-            VStack{
+        VStack{
+            ZStack{
+                Image("Paisaje")
+                    .resizable()
                 
-                ZStack{
-                    Image("Paisaje")
-                        .resizable()
-                    
-                    VStack{
-                        HStack{
-                            Button {
-                            } label: {
-                                Image(systemName: "chevron.backward")
-                                    .foregroundColor(Color("ColorDeLinkViewEnCartView"))
-                                    .frame(width: 40, height: 40)
-                                    .background(Color.white)
-                                    .cornerRadius(100)
-                            }
-                            Spacer()
-                            Button {
-                            } label: {
-                                Image(systemName: "heart")
-                                    .foregroundColor(Color("ColorDeLinkViewEnCartView"))
-                                    .frame(width: 40, height: 40)
-                                    .background(Color.white)
-                                    .cornerRadius(100)
-                            }
+                VStack{
+                    HStack{
+                        Button {
+                        } label: {
+                            Image(systemName: "chevron.backward")
+                                .foregroundColor(Color("ColorDeLinkViewEnCartView"))
+                                .frame(width: 40, height: 40)
+                                .background(Color.white)
+                                .cornerRadius(100)
                         }
-                        .padding()
                         Spacer()
-                        Spacer()
-                        DireccionView()
+                        Button {
+                        } label: {
+                            Image(systemName: "heart")
+                                .foregroundColor(Color("ColorDeLinkViewEnCartView"))
+                                .frame(width: 40, height: 40)
+                                .background(Color.white)
+                                .cornerRadius(100)
+                        }
                     }
+                    .padding()
+                    Spacer()
+                    Spacer()
+                    DireccionView()
                 }
-                
-                MenuItemsView()
-                ComidaItemsView2()
-                
-                Button {
-                } label: {
-                    ZStack{
-                        HStack{
-                            Text("1 item")
-                            Spacer()
-                            Text("Checkout")
-                            Spacer()
-                            Text("Rp 18.500")
-                        }
-                        .padding()
-                        .foregroundColor(Color.white)
-                        .background(Color("ColorDeLinkViewEnCartView"))
-                        .cornerRadius(4)
+            }
+            
+            MenuItemsView()
+            ComidaItemsView2()
+            
+            NavigationLink(destination: ConfirmationView()) {
+                ZStack{
+                    HStack(alignment: .center){
+                        Text("1 item")
+                        Spacer()
+                        Text("Checkout")
+                        Spacer()
+                        Text("Rp 18.500")
                     }
                     .padding()
                     .foregroundColor(Color.white)
+                    .background(Color("ColorDeLinkViewEnCartView"))
+                    .cornerRadius(4)
                 }
+                .padding()
+                .foregroundColor(Color.white)
             }
         }
     }
