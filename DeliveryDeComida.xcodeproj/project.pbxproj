@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2B049D5F277C1D930039FC59 /* PromoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B049D5E277C1D930039FC59 /* PromoItemView.swift */; };
 		2B5F8BB6277B6F050078AF2A /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8BB5277B6F050078AF2A /* CategoryView.swift */; };
-		2B5F8BB9277B6FE20078AF2A /* BlueButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8BB8277B6FE20078AF2A /* BlueButtonStyle.swift */; };
 		2B5F8BBC277B8FA50078AF2A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8BBB277B8FA50078AF2A /* Category.swift */; };
 		2B5F8BBE277B97610078AF2A /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8BBD277B97610078AF2A /* PromoView.swift */; };
 		2BA97FDA277263700056686E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA97FD9277263700056686E /* MainView.swift */; };
@@ -19,6 +18,7 @@
 		2BC1296B27753E5E004B9A07 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296A27753E5E004B9A07 /* AddressView.swift */; };
 		2BC1296D27753EA8004B9A07 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296C27753EA8004B9A07 /* NotificationView.swift */; };
 		2BC1297027754199004B9A07 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296F27754199004B9A07 /* Color.swift */; };
+		2BD073E1277F9968003185C7 /* BlueButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD073E0277F9968003185C7 /* BlueButtonStyle.swift */; };
 		2BFEFB272776591C006AB0E1 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */; };
 		2BFEFB2A27765AEE006AB0E1 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEFB2927765AEE006AB0E1 /* Poppins-Medium.ttf */; };
 		FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */; };
@@ -59,7 +59,6 @@
 /* Begin PBXFileReference section */
 		2B049D5E277C1D930039FC59 /* PromoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoItemView.swift; sourceTree = "<group>"; };
 		2B5F8BB5277B6F050078AF2A /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
-		2B5F8BB8277B6FE20078AF2A /* BlueButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonStyle.swift; sourceTree = "<group>"; };
 		2B5F8BBB277B8FA50078AF2A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		2B5F8BBD277B97610078AF2A /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
 		2BA97FD9277263700056686E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		2BC1296A27753E5E004B9A07 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		2BC1296C27753EA8004B9A07 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		2BC1296F27754199004B9A07 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2BD073E0277F9968003185C7 /* BlueButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonStyle.swift; sourceTree = "<group>"; };
 		2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		2BFEFB28277659CF006AB0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2BFEFB2927765AEE006AB0E1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
@@ -130,14 +130,6 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
-		2B5F8BB7277B6FB10078AF2A /* Styles */ = {
-			isa = PBXGroup;
-			children = (
-				2B5F8BB8277B6FE20078AF2A /* BlueButtonStyle.swift */,
-			);
-			path = Styles;
-			sourceTree = "<group>";
-		};
 		2B5F8BBA277B8F900078AF2A /* Domain */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +166,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		2BD073DF277F9957003185C7 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				2BD073E0277F9968003185C7 /* BlueButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		FB8184F0277193B900559B89 = {
 			isa = PBXGroup;
 			children = (
@@ -197,7 +197,7 @@
 		FB8184FB277193BA00559B89 /* DeliveryDeComida */ = {
 			isa = PBXGroup;
 			children = (
-				2B5F8BB7277B6FB10078AF2A /* Styles */,
+				2BD073DF277F9957003185C7 /* Styles */,
 				2BFEFB28277659CF006AB0E1 /* Info.plist */,
 				2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */,
 				2BFEFB2927765AEE006AB0E1 /* Poppins-Medium.ttf */,
@@ -388,7 +388,6 @@
 			files = (
 				FB95670A277658A4006D0ACA /* ComidaItemsView.swift in Sources */,
 				FB81852E2771965200559B89 /* CartView.swift in Sources */,
-				2B5F8BB9277B6FE20078AF2A /* BlueButtonStyle.swift in Sources */,
 				2B049D5F277C1D930039FC59 /* PromoItemView.swift in Sources */,
 				2B5F8BBC277B8FA50078AF2A /* Category.swift in Sources */,
 				2B5F8BB6277B6F050078AF2A /* CategoryView.swift in Sources */,
@@ -404,6 +403,7 @@
 				FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */,
 				FB81852C2771963000559B89 /* HomeView.swift in Sources */,
 				FB818532277196A900559B89 /* ConfirmationView.swift in Sources */,
+				2BD073E1277F9968003185C7 /* BlueButtonStyle.swift in Sources */,
 				FB8185302771967C00559B89 /* StoreView.swift in Sources */,
 				FB8185372774EDAC00559B89 /* FiltrosView.swift in Sources */,
 				FB818509277193BF00559B89 /* DeliveryDeComida.xcdatamodeld in Sources */,
