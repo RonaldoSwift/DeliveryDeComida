@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B049D5F277C1D930039FC59 /* PromoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B049D5E277C1D930039FC59 /* PromoItemView.swift */; };
+		2B5F8BB6277B6F050078AF2A /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8BB5277B6F050078AF2A /* CategoryView.swift */; };
+		2B5F8BB9277B6FE20078AF2A /* BlueButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8BB8277B6FE20078AF2A /* BlueButtonStyle.swift */; };
+		2B5F8BBC277B8FA50078AF2A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8BBB277B8FA50078AF2A /* Category.swift */; };
+		2B5F8BBE277B97610078AF2A /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8BBD277B97610078AF2A /* PromoView.swift */; };
 		2BA97FDA277263700056686E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA97FD9277263700056686E /* MainView.swift */; };
 		2BA97FDD2772645F0056686E /* PurchasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA97FDC2772645F0056686E /* PurchasesView.swift */; };
 		2BA97FDF2772646E0056686E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA97FDE2772646E0056686E /* SearchView.swift */; };
 		2BA97FE12772647E0056686E /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA97FE02772647E0056686E /* UserProfileView.swift */; };
+		2BC1296B27753E5E004B9A07 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296A27753E5E004B9A07 /* AddressView.swift */; };
+		2BC1296D27753EA8004B9A07 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296C27753EA8004B9A07 /* NotificationView.swift */; };
+		2BC1297027754199004B9A07 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1296F27754199004B9A07 /* Color.swift */; };
+		2BFEFB272776591C006AB0E1 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */; };
+		2BFEFB2A27765AEE006AB0E1 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BFEFB2927765AEE006AB0E1 /* Poppins-Medium.ttf */; };
 		FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */; };
 		FB8184FF277193BA00559B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8184FE277193BA00559B89 /* ContentView.swift */; };
 		FB818501277193BF00559B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB818500277193BF00559B89 /* Assets.xcassets */; };
@@ -47,10 +57,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B049D5E277C1D930039FC59 /* PromoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoItemView.swift; sourceTree = "<group>"; };
+		2B5F8BB5277B6F050078AF2A /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		2B5F8BB8277B6FE20078AF2A /* BlueButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonStyle.swift; sourceTree = "<group>"; };
+		2B5F8BBB277B8FA50078AF2A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2B5F8BBD277B97610078AF2A /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; };
 		2BA97FD9277263700056686E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2BA97FDC2772645F0056686E /* PurchasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesView.swift; sourceTree = "<group>"; };
 		2BA97FDE2772646E0056686E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		2BA97FE02772647E0056686E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		2BC1296A27753E5E004B9A07 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		2BC1296C27753EA8004B9A07 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		2BC1296F27754199004B9A07 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		2BFEFB28277659CF006AB0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2BFEFB2927765AEE006AB0E1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		FB8184F9277193BA00559B89 /* DeliveryDeComida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryDeComida.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDeComidaApp.swift; sourceTree = "<group>"; };
 		FB8184FE277193BA00559B89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +118,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5F8BB4277B6EEF0078AF2A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1296C27753EA8004B9A07 /* NotificationView.swift */,
+				2BC1296A27753E5E004B9A07 /* AddressView.swift */,
+				2B5F8BB5277B6F050078AF2A /* CategoryView.swift */,
+				2B5F8BBD277B97610078AF2A /* PromoView.swift */,
+				2B049D5E277C1D930039FC59 /* PromoItemView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2B5F8BB7277B6FB10078AF2A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				2B5F8BB8277B6FE20078AF2A /* BlueButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		2B5F8BBA277B8F900078AF2A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2B5F8BBB277B8FA50078AF2A /* Category.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		2BA97FDB2772644D0056686E /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +154,24 @@
 				2BA97FE02772647E0056686E /* UserProfileView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		2BC1296927753DC9004B9A07 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2B5F8BBA277B8F900078AF2A /* Domain */,
+				2B5F8BB4277B6EEF0078AF2A /* Presentation */,
+				FB81852B2771963000559B89 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2BC1296E2775417C004B9A07 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1296F27754199004B9A07 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FB8184F0277193B900559B89 = {
@@ -130,14 +197,19 @@
 		FB8184FB277193BA00559B89 /* DeliveryDeComida */ = {
 			isa = PBXGroup;
 			children = (
+				2B5F8BB7277B6FB10078AF2A /* Styles */,
+				2BFEFB28277659CF006AB0E1 /* Info.plist */,
+				2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */,
+				2BFEFB2927765AEE006AB0E1 /* Poppins-Medium.ttf */,
+				2BC1296E2775417C004B9A07 /* Extensions */,
+				FB818500277193BF00559B89 /* Assets.xcassets */,
+				2BC1296927753DC9004B9A07 /* Home */,
 				2BA97FDB2772644D0056686E /* Main */,
 				FB8184FC277193BA00559B89 /* DeliveryDeComidaApp.swift */,
 				FB8184FE277193BA00559B89 /* ContentView.swift */,
-				FB818500277193BF00559B89 /* Assets.xcassets */,
 				FB818505277193BF00559B89 /* Persistence.swift */,
 				FB818507277193BF00559B89 /* DeliveryDeComida.xcdatamodeld */,
 				FB818502277193BF00559B89 /* Preview Content */,
-				FB81852B2771963000559B89 /* HomeView.swift */,
 				FB81852D2771965200559B89 /* CartView.swift */,
 				FB8185352774ED8400559B89 /* Comun */,
 				FB81852F2771967C00559B89 /* StoreView.swift */,
@@ -286,6 +358,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFEFB272776591C006AB0E1 /* Poppins-Regular.ttf in Resources */,
+				2BFEFB2A27765AEE006AB0E1 /* Poppins-Medium.ttf in Resources */,
 				FB818504277193BF00559B89 /* Preview Assets.xcassets in Resources */,
 				FB818501277193BF00559B89 /* Assets.xcassets in Resources */,
 			);
@@ -314,12 +388,19 @@
 			files = (
 				FB95670A277658A4006D0ACA /* ComidaItemsView.swift in Sources */,
 				FB81852E2771965200559B89 /* CartView.swift in Sources */,
+				2B5F8BB9277B6FE20078AF2A /* BlueButtonStyle.swift in Sources */,
+				2B049D5F277C1D930039FC59 /* PromoItemView.swift in Sources */,
+				2B5F8BBC277B8FA50078AF2A /* Category.swift in Sources */,
+				2B5F8BB6277B6F050078AF2A /* CategoryView.swift in Sources */,
 				FB818506277193BF00559B89 /* Persistence.swift in Sources */,
 				FB8184FF277193BA00559B89 /* ContentView.swift in Sources */,
+				2B5F8BBE277B97610078AF2A /* PromoView.swift in Sources */,
 				2BA97FDA277263700056686E /* MainView.swift in Sources */,
 				2BA97FDF2772646E0056686E /* SearchView.swift in Sources */,
+				2BC1297027754199004B9A07 /* Color.swift in Sources */,
 				2BA97FE12772647E0056686E /* UserProfileView.swift in Sources */,
 				FB818534277196E400559B89 /* ThankfulView.swift in Sources */,
+				2BC1296B27753E5E004B9A07 /* AddressView.swift in Sources */,
 				FB8184FD277193BA00559B89 /* DeliveryDeComidaApp.swift in Sources */,
 				FB81852C2771963000559B89 /* HomeView.swift in Sources */,
 				FB818532277196A900559B89 /* ConfirmationView.swift in Sources */,
@@ -327,6 +408,7 @@
 				FB8185372774EDAC00559B89 /* FiltrosView.swift in Sources */,
 				FB818509277193BF00559B89 /* DeliveryDeComida.xcdatamodeld in Sources */,
 				2BA97FDD2772645F0056686E /* PurchasesView.swift in Sources */,
+				2BC1296D27753EA8004B9A07 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +572,7 @@
 				DEVELOPMENT_TEAM = H9JXH336V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeliveryDeComida/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -519,6 +602,7 @@
 				DEVELOPMENT_TEAM = H9JXH336V5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeliveryDeComida/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
