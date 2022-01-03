@@ -203,6 +203,9 @@
 		FB8184FB277193BA00559B89 /* DeliveryDeComida */ = {
 			isa = PBXGroup;
 			children = (
+				FBBF211A2783AA400008359C /* Confimation */,
+				FBBF21192783AA230008359C /* ThankfuI */,
+				FBBF21182783A9FA0008359C /* Cart */,
 				FBBF21172783A6BC0008359C /* Store */,
 				2BD073DF277F9957003185C7 /* Styles */,
 				2BFEFB28277659CF006AB0E1 /* Info.plist */,
@@ -266,25 +269,38 @@
 			path = Comun2;
 			sourceTree = "<group>";
 		};
-		FBBF2116278220460008359C /* Presentation2 */ = {
-			isa = PBXGroup;
-			children = (
-				FB818533277196E400559B89 /* ThankfulView.swift */,
-				FB818531277196A900559B89 /* ConfirmationView.swift */,
-				FB81852D2771965200559B89 /* CartView.swift */,
-				FB8185352774ED8400559B89 /* ComunCartView */,
-			);
-			path = Presentation2;
-			sourceTree = "<group>";
-		};
 		FBBF21172783A6BC0008359C /* Store */ = {
 			isa = PBXGroup;
 			children = (
 				FB81852F2771967C00559B89 /* StoreView.swift */,
 				FB8BC0A5277CFAD50009B71C /* Comun2 */,
-				FBBF2116278220460008359C /* Presentation2 */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		FBBF21182783A9FA0008359C /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				FB81852D2771965200559B89 /* CartView.swift */,
+				FB8185352774ED8400559B89 /* ComunCartView */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		FBBF21192783AA230008359C /* ThankfuI */ = {
+			isa = PBXGroup;
+			children = (
+				FB818533277196E400559B89 /* ThankfulView.swift */,
+			);
+			path = ThankfuI;
+			sourceTree = "<group>";
+		};
+		FBBF211A2783AA400008359C /* Confimation */ = {
+			isa = PBXGroup;
+			children = (
+				FB818531277196A900559B89 /* ConfirmationView.swift */,
+			);
+			path = Confimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
