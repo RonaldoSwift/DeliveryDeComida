@@ -203,6 +203,7 @@
 		FB8184FB277193BA00559B89 /* DeliveryDeComida */ = {
 			isa = PBXGroup;
 			children = (
+				FBBF21172783A6BC0008359C /* Store */,
 				2BD073DF277F9957003185C7 /* Styles */,
 				2BFEFB28277659CF006AB0E1 /* Info.plist */,
 				2BFEFB262776591C006AB0E1 /* Poppins-Regular.ttf */,
@@ -215,14 +216,8 @@
 				FB8184FE277193BA00559B89 /* ContentView.swift */,
 				FB818505277193BF00559B89 /* Persistence.swift */,
 				FB818507277193BF00559B89 /* DeliveryDeComida.xcdatamodeld */,
-				FB818502277193BF00559B89 /* Preview Content */,
-				FB81852D2771965200559B89 /* CartView.swift */,
-				FB8185352774ED8400559B89 /* Comun */,
-				FB81852F2771967C00559B89 /* StoreView.swift */,
-				FB8BC0A5277CFAD50009B71C /* Comun2 */,
-				FB818531277196A900559B89 /* ConfirmationView.swift */,
-				FB818533277196E400559B89 /* ThankfulView.swift */,
 				2BA97FD9277263700056686E /* MainView.swift */,
+				FB818502277193BF00559B89 /* Preview Content */,
 			);
 			path = DeliveryDeComida;
 			sourceTree = "<group>";
@@ -252,13 +247,13 @@
 			path = DeliveryDeComidaUITests;
 			sourceTree = "<group>";
 		};
-		FB8185352774ED8400559B89 /* Comun */ = {
+		FB8185352774ED8400559B89 /* ComunCartView */ = {
 			isa = PBXGroup;
 			children = (
 				FB8185362774EDAC00559B89 /* FiltrosView.swift */,
 				FB956709277658A4006D0ACA /* ComidaItemsView.swift */,
 			);
-			path = Comun;
+			path = ComunCartView;
 			sourceTree = "<group>";
 		};
 		FB8BC0A5277CFAD50009B71C /* Comun2 */ = {
@@ -269,6 +264,27 @@
 				FB421214277D25EC00F7FB7B /* MenuItemsView.swift */,
 			);
 			path = Comun2;
+			sourceTree = "<group>";
+		};
+		FBBF2116278220460008359C /* Presentation2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB818533277196E400559B89 /* ThankfulView.swift */,
+				FB818531277196A900559B89 /* ConfirmationView.swift */,
+				FB81852D2771965200559B89 /* CartView.swift */,
+				FB8185352774ED8400559B89 /* ComunCartView */,
+			);
+			path = Presentation2;
+			sourceTree = "<group>";
+		};
+		FBBF21172783A6BC0008359C /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				FB81852F2771967C00559B89 /* StoreView.swift */,
+				FB8BC0A5277CFAD50009B71C /* Comun2 */,
+				FBBF2116278220460008359C /* Presentation2 */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
