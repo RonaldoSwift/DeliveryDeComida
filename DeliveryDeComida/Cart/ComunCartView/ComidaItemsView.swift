@@ -19,6 +19,7 @@ struct ComidaItemsView: View {
                     Text("Jl. Jaya katwang no 4, Ngasem")
                         .foregroundColor(Color("ColorDeNumero"))
                 }
+                Spacer()
                 VStack{
                     HStack{
                         Image(systemName: "star")
@@ -31,7 +32,7 @@ struct ComidaItemsView: View {
             }
             
             //Por Mientras
-            Text("_____________________________________")
+            Text("____________________________________________")
                 .foregroundColor(Color("ColorDeNumeroAnulado"))
             
             ScrollView{
@@ -64,6 +65,7 @@ struct ComidaItemsView: View {
                                                 .foregroundColor(Color("ColorDeNumero"))
                                         }
                                     }
+                                    Spacer()
                                 }
                             }
                             Image(systemName: "heart")
@@ -103,9 +105,11 @@ struct ComidaItemsView: View {
                             }
                         }
                     }
+                    .padding()
                 }
             }
         }
+        .padding()
 
     }
 }
