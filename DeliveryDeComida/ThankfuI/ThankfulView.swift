@@ -9,7 +9,31 @@ import SwiftUI
 
 struct ThankfulView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center){
+            ImageView()
+            Text("Your order is confirmet!")
+                .padding()
+                .foregroundColor(Color("ColorDeTituloDeMenu"))
+                .font(.title)
+            
+            Text("Well deliver your order immdediately, make sure your order put on the doorstep")
+                .padding()
+                .foregroundColor(Color("ColorDeNumero"))
+            
+            Text("__________")
+                .foregroundColor(Color("ColorDeNumero"))
+            
+            Button {
+            } label: {
+                Text("Check order status")
+                    .padding()
+                    .font(.title)
+                    .foregroundColor(Color.white)
+                    .background(Color("ColorDeLinkViewEnCartView"))
+                    .cornerRadius(10)
+            }
+            ThankfuIView4()
+        }
     }
 }
 

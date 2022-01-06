@@ -44,6 +44,8 @@
 		FBBF211F2785343B0008359C /* ComidaItemsView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBF211E2785343A0008359C /* ComidaItemsView3.swift */; };
 		FBBF2121278535160008359C /* DeliverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBF2120278535160008359C /* DeliverView.swift */; };
 		FBBF212327853DA00008359C /* KeepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBF212227853DA00008359C /* KeepView.swift */; };
+		FBD5AC9D27878D5A00AEA57B /* ThankfuIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5AC9C27878D5A00AEA57B /* ThankfuIView4.swift */; };
+		FBD5AC9F2787969100AEA57B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD5AC9E2787969100AEA57B /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		FBBF211E2785343A0008359C /* ComidaItemsView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComidaItemsView3.swift; sourceTree = "<group>"; };
 		FBBF2120278535160008359C /* DeliverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverView.swift; sourceTree = "<group>"; };
 		FBBF212227853DA00008359C /* KeepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepView.swift; sourceTree = "<group>"; };
+		FBD5AC9C27878D5A00AEA57B /* ThankfuIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankfuIView4.swift; sourceTree = "<group>"; };
+		FBD5AC9E2787969100AEA57B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +281,15 @@
 			path = Comun2;
 			sourceTree = "<group>";
 		};
+		FB9BD8CE27877EC3009225BD /* Confirmation4 */ = {
+			isa = PBXGroup;
+			children = (
+				FBD5AC9C27878D5A00AEA57B /* ThankfuIView4.swift */,
+				FBD5AC9E2787969100AEA57B /* ImageView.swift */,
+			);
+			path = Confirmation4;
+			sourceTree = "<group>";
+		};
 		FBBF21172783A6BC0008359C /* Store */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				FB818533277196E400559B89 /* ThankfulView.swift */,
+				FB9BD8CE27877EC3009225BD /* Confirmation4 */,
 			);
 			path = ThankfuI;
 			sourceTree = "<group>";
@@ -463,6 +477,7 @@
 				2B5F8BB6277B6F050078AF2A /* CategoryView.swift in Sources */,
 				FB818506277193BF00559B89 /* Persistence.swift in Sources */,
 				FB8184FF277193BA00559B89 /* ContentView.swift in Sources */,
+				FBD5AC9F2787969100AEA57B /* ImageView.swift in Sources */,
 				FBBF211C2784DF7F0008359C /* ComunConfirmation.swift in Sources */,
 				2B5F8BBE277B97610078AF2A /* PromoView.swift in Sources */,
 				FB421215277D25EC00F7FB7B /* MenuItemsView.swift in Sources */,
@@ -478,6 +493,7 @@
 				FB818532277196A900559B89 /* ConfirmationView.swift in Sources */,
 				2BD073E1277F9968003185C7 /* BlueButtonStyle.swift in Sources */,
 				FB421213277D24BD00F7FB7B /* DireccionView.swift in Sources */,
+				FBD5AC9D27878D5A00AEA57B /* ThankfuIView4.swift in Sources */,
 				FB8185302771967C00559B89 /* StoreView.swift in Sources */,
 				FB8185372774EDAC00559B89 /* FiltrosView.swift in Sources */,
 				FB8BC0A7277CFB160009B71C /* ComidaItemsView2.swift in Sources */,
