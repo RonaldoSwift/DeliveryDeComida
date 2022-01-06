@@ -9,13 +9,31 @@ import SwiftUI
 
 struct ConfirmationView: View {
     var body: some View {
-        NavigationLink(destination: ThankfulView()) {
-            Text("Pantalla ThankView")
+        VStack{
+            Text("Checkout")
+                .font(.title)
+            
+            KeepView()
+            DeliverView()
+            ComidaItemsView3()
+            ComunConfirmation()
+            NavigationLink(destination: ThankfulView()) {
+                ZStack{
+                    HStack(alignment: .center){
+                        Text("Place order")
+                        Spacer()
+                        Text("Rp 18.500")
+                    }
+                    .padding()
+                    .foregroundColor(Color.white)
+                    .background(Color("ColorDeLinkViewEnCartView"))
+                    .cornerRadius(4)
+                }
                 .padding()
-                .foregroundColor(Color.green)
-                .background(Color.red)
-                .cornerRadius(10)
+                .foregroundColor(Color.white)
+            }
         }
+        .padding()
     }
 }
 
