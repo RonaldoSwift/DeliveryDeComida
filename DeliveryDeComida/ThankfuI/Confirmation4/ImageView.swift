@@ -12,10 +12,12 @@ struct ImageView: View {
         ZStack{
             Image("FondoDeImage")
                 .resizable()
+                .scaledToFit()
                 .frame(width: 360, height: 340, alignment: .center)
             VStack{
                 Image("Persona")
                     .resizable()
+                    .scaledToFit()
                     .frame(width: 230, height: 400, alignment: .center)
             }
         }

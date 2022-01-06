@@ -15,6 +15,7 @@ struct ThankfulView: View {
                 .padding()
                 .foregroundColor(Color("ColorDeTituloDeMenu"))
                 .font(.title)
+                .font(Font.custom("Poppins-Medium", size: 24))
             
             Text("Well deliver your order immdediately, make sure your order put on the doorstep")
                 .padding()
@@ -28,12 +29,15 @@ struct ThankfulView: View {
                 Text("Check order status")
                     .padding()
                     .font(.title)
+                    .font(Font.custom("Poppins-Medium", size: 16))
+                
                     .foregroundColor(Color.white)
                     .background(Color("ColorDeLinkViewEnCartView"))
                     .cornerRadius(10)
             }
             ThankfuIView4()
         }
+        .background(Color.homeBackground)
     }
 }
 

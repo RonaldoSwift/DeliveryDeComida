@@ -83,6 +83,7 @@ struct ThankfuIView4: View {
             }
         }
         .padding()
+        .background(Color.white)
     }
 }
 
