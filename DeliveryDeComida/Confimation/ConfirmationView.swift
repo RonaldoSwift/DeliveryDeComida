@@ -34,6 +34,7 @@ struct ConfirmationView: View {
             }
         }
         .padding()
+        .foregroundColor(Color.white)
     }
 }
 
